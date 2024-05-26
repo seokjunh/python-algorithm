@@ -15,4 +15,5 @@ def solution(dirs):
             answer.add((nx,ny,x,y))
             answer.add((x,y,nx,ny))
             x,y = nx,ny
+            
     return len(answer)/2    

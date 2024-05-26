@@ -7,5 +7,5 @@ def solution(N, stages):
             n -= stages.count(i)
         else:
             answer[i] = 0
-    print(answer)
+    
     return sorted(answer, key=lambda x:answer[x] ,reverse=True)
